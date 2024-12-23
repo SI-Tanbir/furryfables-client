@@ -1,0 +1,11 @@
+{
+    "hosting": {
+      "public": "dist",  // or the folder where your website's files are located
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  }
+  
