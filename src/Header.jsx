@@ -11,7 +11,7 @@ const Header = () => {
     <div>
     <ul   className="flex gap-6">
         <Link  to={'/'}  className="   hover:bg-customBg cursor-pointer p-2 rounded">Home</Link>
-        <li   className="   hover:bg-customBg cursor-pointer p-2 rounded">My Products</li>
+        <Link  to={'/myproducts'}  className="   hover:bg-customBg cursor-pointer p-2 rounded">My Products</Link>
         <Link to={'/login'}   className="   hover:bg-customBg cursor-pointer p-2 rounded">Login</Link>
         <Link to={'/signup'}  className="   hover:bg-customBg cursor-pointer p-2 rounded">Signup</Link>
     </ul>

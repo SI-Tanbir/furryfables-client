@@ -1,0 +1,132 @@
+[
+    {
+      "id": 1,
+      "name": "Cuddly Brown Bear",
+      "description": "A super-soft brown teddy bear perfect for cuddles.",
+      "price": 19.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    
+    {
+      "id": 2,
+      "name": "Blush Pink Bear",
+      "description": "Adorable pink bear with a bow tie, perfect for gifting.",
+      "price": 24.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 3,
+      "name": "Baby Blue Bear",
+      "description": "A charming blue bear for baby showers and nursery decor.",
+      "price": 22.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 4,
+      "name": "Golden Honey Bear",
+      "description": "Golden bear with embroidered paw prints, sweet as honey.",
+      "price": 18.49,
+      "inStock": false,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 5,
+      "name": "Classic White Teddy",
+      "description": "Classic white teddy bear, perfect for any occasion.",
+      "price": 20.00,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 6,
+      "name": "Rainbow Sparkle Bear",
+      "description": "A rainbow-colored bear that shines with glittery sparkles.",
+      "price": 29.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 7,
+      "name": "Tiny Teacup Bear",
+      "description": "A tiny bear that fits in your teacup, absolutely adorable.",
+      "price": 15.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 8,
+      "name": "Giant Snuggle Bear",
+      "description": "Oversized teddy bear for the biggest hugs ever.",
+      "price": 89.99,
+      "inStock": false,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 9,
+      "name": "Vintage Patchwork Bear",
+      "description": "A retro-inspired bear with patchwork fabric designs.",
+      "price": 25.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 10,
+      "name": "Festive Christmas Bear",
+      "description": "Bear dressed in a Santa hat and scarf, ready for the holidays.",
+      "price": 30.00,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 11,
+      "name": "Sleepy Time Bear",
+      "description": "A bear with a nightcap, perfect for bedtime cuddles.",
+      "price": 21.49,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 12,
+      "name": "Luxe Velvet Bear",
+      "description": "A luxurious bear made from soft velvet material.",
+      "price": 34.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 13,
+      "name": "Chocolate Brown Bear",
+      "description": "Rich chocolate-colored bear with a heartwarming smile.",
+      "price": 19.99,
+      "inStock": false,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 14,
+      "name": "Panda Pal Bear",
+      "description": "A panda-inspired teddy bear with black and white fur.",
+      "price": 26.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 15,
+      "name": "Fluffy Lavender Bear",
+      "description": "A lavender-colored bear with a calming presence.",
+      "price": 23.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    },
+    {
+      "id": 16,
+      "name": "Adventure Bear",
+      "description": "A rugged bear with a tiny backpack, ready for adventures.",
+      "price": 27.99,
+      "inStock": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+    }
+  ]
+  

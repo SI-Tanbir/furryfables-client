@@ -5,6 +5,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import LoginForm from "./Login";
 import SignupForm from "./Signup";
+import DashBoard from "./DashBoard";
 
 let router = createBrowserRouter([
   {
@@ -18,7 +19,13 @@ let router = createBrowserRouter([
   {
     path:'/signup',
     element:<SignupForm></SignupForm>
+  },
+  {
+    path:'/myproducts',
+    element:<DashBoard></DashBoard>
   }
+
+
 ]);
 
 createRoot(document.getElementById("root")).render(
