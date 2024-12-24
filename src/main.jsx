@@ -6,6 +6,7 @@ import App from "./App";
 import LoginForm from "./Login";
 import SignupForm from "./Signup";
 import DashBoard from "./DashBoard";
+import Provider from "./Provider";
 
 let router = createBrowserRouter([
   {
@@ -29,5 +30,17 @@ let router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+
+
+  <Provider>
+
+    <RouterProvider router={router} />
+
+  </Provider>
+
+
+  
+
+
+ 
 );

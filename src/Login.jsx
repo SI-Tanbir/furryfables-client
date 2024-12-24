@@ -1,6 +1,10 @@
 import React from "react";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router";
+// import { GoogleAuthProvider } from "firebase/auth";
+import {  signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import app from "../firebase";
+
 
 const LoginForm = () => {
     const navigate=useNavigate()
@@ -12,7 +16,7 @@ const handleLogin=(e)=>{
     console.log(email,password)
 
 
-    const auth = getAuth();
+    const auth = getAuth(app);
 signInWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     // Signed in 
@@ -33,6 +37,45 @@ signInWithEmailAndPassword(auth, email, password)
 
   });
 
+
+
+}
+
+//setting up google signup
+
+const provider = new GoogleAuthProvider();
+const auth = getAuth(app);
+
+
+const handleGoogle=()=>{
+
+
+ 
+signInWithPopup(auth, provider)
+  .then((result) => {
+    // This gives you a Google Access Token. You can use it to access the Google API.
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+    // The signed-in user info.
+    const user = result.user;
+    console.log(user)
+    if(user.accessToken){
+      navigate('/')
+
+    }
+    // IdP data available using getAdditionalUserInfo(result)
+    // ...
+  }).catch((error) => {
+    // Handle Errors here.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // The email of the user's account used.
+    const email = error.customData.email;
+    // The AuthCredential type that was used.
+    const credential = GoogleAuthProvider.credentialFromError(error);
+    console.log(credential)
+    // ...
+  });
 
 
 }
@@ -78,6 +121,9 @@ signInWithEmailAndPassword(auth, email, password)
           </div>
           <div className="mt-6">
             <button className="btn btn-primary w-full">Log In</button>
+          </div>
+          <div className="mt-6">
+            <button onClick={handleGoogle} className="btn btn-primary ">Sigup with Google</button>
           </div>
         </form>
         <p className="text-sm text-center text-gray-600">
