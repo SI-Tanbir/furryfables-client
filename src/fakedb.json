@@ -5,7 +5,7 @@
       "description": "A super-soft brown teddy bear perfect for cuddles.",
       "price": 19.99,
       "inStock": true,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+      "imageUrl": "https://i.ibb.co.com/vh3prDK/1.jpg"
     },
     
     {
@@ -14,7 +14,7 @@
       "description": "Adorable pink bear with a bow tie, perfect for gifting.",
       "price": 24.99,
       "inStock": true,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+      "imageUrl": "https://i.ibb.co.com/6t3bSBb/2.jpg"
     },
     {
       "id": 3,
@@ -22,15 +22,15 @@
       "description": "A charming blue bear for baby showers and nursery decor.",
       "price": 22.99,
       "inStock": true,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
-    },
+      "imageUrl": "https://i.ibb.co.com/CJz3x5j/3.jpg"   
+     },
     {
       "id": 4,
       "name": "Golden Honey Bear",
       "description": "Golden bear with embroidered paw prints, sweet as honey.",
       "price": 18.49,
       "inStock": false,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+          "imageUrl": "https://i.ibb.co.com/vh3prDK/1.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "description": "Classic white teddy bear, perfect for any occasion.",
       "price": 20.00,
       "inStock": true,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+      "imageUrl": "https://i.ibb.co.com/CJz3x5j/3.jpg"  
     },
     {
       "id": 6,
@@ -46,7 +46,8 @@
       "description": "A rainbow-colored bear that shines with glittery sparkles.",
       "price": 29.99,
       "inStock": true,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+      "imageUrl": "https://i.ibb.co.com/vh3prDK/1.jpg"
+
     },
     {
       "id": 7,
@@ -54,7 +55,7 @@
       "description": "A tiny bear that fits in your teacup, absolutely adorable.",
       "price": 15.99,
       "inStock": true,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+     "imageUrl": "https://i.ibb.co.com/6t3bSBb/2.jpg"
     },
     {
       "id": 8,
@@ -62,7 +63,7 @@
       "description": "Oversized teddy bear for the biggest hugs ever.",
       "price": 89.99,
       "inStock": false,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+       "imageUrl": "https://i.ibb.co.com/vh3prDK/1.jpg"
     },
     {
       "id": 9,
@@ -70,7 +71,7 @@
       "description": "A retro-inspired bear with patchwork fabric designs.",
       "price": 25.99,
       "inStock": true,
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-1d0cb85f9d7d"
+        "imageUrl": "https://i.ibb.co.com/6t3bSBb/2.jpg"
     },
     {
       "id": 10,

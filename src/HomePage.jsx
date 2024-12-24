@@ -6,6 +6,7 @@ import img3 from "./assets/3.png";
 import img4 from "./assets/4.webp";
 import img5 from "./assets/5.webp";
 import img6 from "./assets/6.webp";
+import img11 from './assets/11.webp'
 
 import data from "./fakedb.json";
 
@@ -41,7 +42,7 @@ const HomePage = () => {
 
 
     // console.log(id)
-    
+
 
   }
   
@@ -51,7 +52,7 @@ const HomePage = () => {
 
       <div className="carousel w-full h-[700px] ">
         <div id="slide1" className="carousel-item relative w-full ">
-          <img src={img1} className="w-full  object-fill " />
+          <img src={img11} className="w-full  object-fill " />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" className="btn btn-circle">
               ❮
@@ -63,7 +64,7 @@ const HomePage = () => {
         </div>
 
         <div id="slide2" className="carousel-item relative w-full">
-          <img src={img2} className="w-full object-fill" />
+          <img src={img4} className="w-full object-fill" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide1" className="btn btn-circle">
               ❮
@@ -85,7 +86,7 @@ const HomePage = () => {
           </div>
         </div>
         <div id="slide4" className="carousel-item relative w-full">
-          <img src={img4} className="w-full object-fill" />
+          <img src={img1} className="w-full object-fill" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide3" className="btn btn-circle">
               ❮
@@ -130,8 +131,8 @@ const HomePage = () => {
 <div key={res.id}>
   <div className="card card-compact bg-base-100 w-[400px]  shadow-xl">
     <figure>
-      <img className="w-full"
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      <img className=" "
+        src={res.imageUrl}
         alt="Shoes"
       />
     </figure>
